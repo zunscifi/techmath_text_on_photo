@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/text_tool_top_height"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <com.techmath.textonphoto.photoeditor.RoundFrameLayout
+        android:id="@id/btn_picker_color_shadow"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:layout_margin="12.0dip"
+        android:clickable="true"
+        android:padding="3.0dip"
+        app:rv_backgroundColor="@color/main_bg"
+        app:rv_cornerRadius="3.0dip"
+        app:rv_strokeColor="@color/button_color"
+        app:rv_strokeWidth="2.0dip">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_pencil" />
+    </com.techmath.textonphoto.photoeditor.RoundFrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@id/tvRadius"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/text_tool_top_height_half"
+            android:gravity="center"
+            android:text="Radius"
+            android:textColor="@android:color/white" />
+
+        <SeekBar
+            android:id="@id/sb_dRadius_shadow"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_tool_top_height_half"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginRight="8.0dip"
+            android:layout_toRightOf="@id/tvRadius"
+            android:thumbTint="@color/button_color"
+            android:progressBackgroundTint="@color/white"
+            android:progressTint="@color/button_color" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/text_tool_top_height_half"
+            android:layout_below="@id/tvRadius"
+            android:gravity="center"
+            android:text="Dy"
+            android:textColor="@android:color/white" />
+
+        <SeekBar
+            android:id="@id/sb_Dy_shadow"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_tool_top_height_half"
+            android:layout_below="@id/tvRadius"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginRight="8.0dip"
+            android:layout_toRightOf="@id/tvRadius"
+            android:thumbTint="@color/button_color"
+            android:progressBackgroundTint="@color/white"
+            android:progressTint="@color/button_color" />
+    </RelativeLayout>
+</LinearLayout>

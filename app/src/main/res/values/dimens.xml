@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="action_bar_size">16.0dip</dimen>
+    <dimen name="action_button_min_height_material">48.0dip</dimen>
+    <dimen name="action_button_min_width_material">48.0dip</dimen>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <dimen name="appcompat_dialog_background_inset">16.0dip</dimen>
+    <dimen name="browser_actions_context_menu_max_width">500.0dip</dimen>
+    <dimen name="browser_actions_context_menu_min_padding">20.0dip</dimen>
+
+    <dimen name="corner_radius_default">2.0dip</dimen>
+    <dimen name="corner_radius_rounded">25.0dip</dimen>
+    <dimen name="default_dimension">100.0dip</dimen>
+    <dimen name="default_padding_side">24.0dip</dimen>
+    <dimen name="default_preview_height">40.0dip</dimen>
+    <dimen name="default_preview_image_height">36.0dip</dimen>
+    <dimen name="default_slider_bar_height">4.0dip</dimen>
+    <dimen name="default_slider_handler_radius">10.0dip</dimen>
+    <dimen name="default_slider_height">36.0dip</dimen>
+    <dimen name="default_slider_margin">24.0dip</dimen>
+    <dimen name="default_slider_margin_btw_title">20.0dip</dimen>
+
+    <dimen name="design_bottom_sheet_elevation">8.0dip</dimen>
+
+    <item type="dimen" name="design_snackbar_action_text_color_alpha">1.0</item>
+
+    <dimen name="fab_margin">16.0dip</dimen>
+
+    <dimen name="frame_margin">18.0dip</dimen>
+    <dimen name="gnt_ad_indicator_height">20.0dip</dimen>
+    <dimen name="gnt_ad_indicator_text_size">10.0dip</dimen>
+    <dimen name="gnt_ad_indicator_top_margin">5.0dip</dimen>
+    <dimen name="gnt_ad_indicator_width">25.0dip</dimen>
+    <dimen name="gnt_default_margin">10.0dip</dimen>
+    <dimen name="gnt_no_margin">0.0dip</dimen>
+    <dimen name="gnt_no_size">0.0dip</dimen>
+    <dimen name="gnt_small_cta_button_height">40.0dip</dimen>
+    <item type="dimen" name="gnt_text_row_weight">0.32</item>
+    <dimen name="gnt_text_size_large">15.0dip</dimen>
+    <dimen name="gnt_text_size_small">12.0dip</dimen>
+
+    <dimen name="icon_size">50.0dip</dimen>
+
+    <item type="dimen" name="material_emphasis_disabled">0.38</item>
+    <item type="dimen" name="material_emphasis_high_type">0.87</item>
+    <item type="dimen" name="material_emphasis_medium">0.6</item>
+
+    <dimen name="test_mtrl_calendar_day_cornerSize">52.0dip</dimen>
+    <dimen name="text_tool_top_height">124.0dip</dimen>
+    <dimen name="text_tool_top_height_half">62.0dip</dimen>
+
+    <dimen name="ucrop_margit_top_widget_text">10.0sp</dimen>
+    <dimen name="height_button_main">80dp</dimen>
+
+</resources>

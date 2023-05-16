@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Text On Photo</string>
+
+    <!--admob ids-->
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_native_id">ca-app-pub-3940256099942544/2247696110</string>
+
+    <!--ironSource app ad id-->
+    <string name="iron_ad_id" translatable="false">152bb3671</string>
+
+    <string name="select_background">Select Template</string>
+    <string name="clear">Clear</string>
+    <string name="color">Color</string>
+
+    <string name="discard">Discard</string>
+    <string name="discard_photo">Are you sure to exit?</string>
+    <string name="done">Done</string>
+    <string name="double_tap">Double Tap to Change</string>
+    <string name="action_search">Search</string>
+
+
+    <string name="flowers">Flowers</string>
+    <string name="appbar_scrolling_view_behavior">
+        com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior
+    </string>
+
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+
+
+    <string name="icon_content_description">Dialog Icon</string>
+    <string name="if_you_go_back_you_will_lose_your_photo">If you exit, you will lose your Text Art Photo.</string>
+    <string name="item_view_role_description">Tab</string>
+    <string name="keep">Keep</string>
+
+    <string name="loading">Loading...</string>
+    <string name="material_slider_range_end">Range end,</string>
+    <string name="material_slider_range_start">Range start,</string>
+    <string name="max_item">Too much sticker</string>
+    <string name="menu_vector_path">M20 30,L80 30,M20 50,L80 50,M20 70,L80 70</string>
+    <string name="more_thoughts">Select Quotes</string>
+
+    <string name="nature">Nature</string>
+    <string name="night_sky">Night Sky</string>
+
+
+    <string name="photos">Photos</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+
+
+    <string name="thought1">There is only one happiness in this life, to love and be loved.</string>
+    <string name="thought10">Love yourself. It is important to stay positive because beauty comes from the inside out.</string>
+    <string name="thought11">Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.</string>
+    <string name="thought12">If you have only one smile in you give it to the people you love.</string>
+    <string name="thought13">Let us always meet each other with smile, for the smile is the beginning of love.</string>
+    <string name="thought14">"Where there is love there is life."</string>
+    <string name="thought15">"We are most alive when we are in love."</string>
+    <string name="thought16">"Love all, trust a few, do wrong to none."</string>
+    <string name="thought17">A good teacher can inspire hope, ignite the imagination, and instill a love of learning.</string>
+    <string name="thought18">A successful marriage requires falling in love many times, always with the same person.</string>
+    <string name="thought19">"Keep love in your heart. A life without it is like a sunless garden when the flowers are dead."</string>
+    <string name="thought2">Love will find a way through paths where wolves fear to prey.</string>
+    <string name="thought20">The best thing to hold onto in life is each other.</string>
+    <string name="thought21">I love you the more in that I believe you had liked me for my own sake and for nothing else.</string>
+    <string name="thought22">To be brave is to love someone unconditionally, without expecting anything in retur</string>
+    <string name="thought23">Only do what your heart tells you.</string>
+    <string name="thought24">True love stories never have endings.</string>
+    <string name="thought25">The most important thing a father can do for his children is to love their mother.</string>
+    <string name="thought26">Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.</string>
+    <string name="thought27">The good life is one inspired by love and guided by knowledge.</string>
+    <string name="thought28">If you wish to be loved, show more of your faults than your virtues</string>
+    <string name="thought29">The greatest gift that you can give to others is the gift of unconditional love and acceptance.</string>
+    <string name="thought3">To love is nothing. To be loved is something. But to love and be loved, that’s everything</string>
+    <string name="thought30">If you remember me, then I don’t care if everyone else forgets</string>
+    <string name="thought31">Love is an act of endless forgiveness, a tender look which becomes a habit</string>
+    <string name="thought32">When we are in love we seem to ourselves quite different from what we were before</string>
+    <string name="thought33">Happiness isn’t getting what you want, it’s wanting what you got</string>
+    <string name="thought34">"Music is love, love is music, music is life, and I love my life. Thank you and good night."</string>
+    <string name="thought35">Best lesson I ever learned in life came from the worst feeling I ever felt in life</string>
+    <string name="thought36">"Spread love everywhere you go. Let no one ever come to you without leaving happier."</string>
+    <string name="thought37">"Money can buy you a fine dog, but only love can make him wag his tail."</string>
+    <string name="thought38">"Missing you is the hardest thing I've got to deal with\u0009"</string>
+    <string name="thought39">"The love of family and the admiration of friends is much more important than wealth and privilege."</string>
+    <string name="thought4">Love is a better teacher than duty.</string>
+    <string name="thought40">Someday you will look back and know exactly why it had to happy</string>
+    <string name="thought41">An anniversary is a reminder as to why you love and married this person.</string>
+    <string name="thought42">When you love someone all your saved up wishes start coming out.</string>
+    <string name="thought43">True love is quiescent, except in the nascent moments of true humility.</string>
+    <string name="thought44">"Love and compassion are necessities\\, not luxuries. Without them humanity cannot survive."</string>
+    <string name="thought45">The thought of kissing you keeps me awake at night\u0009</string>
+    <string name="thought46">A good heart is always breaking\u0009</string>
+    <string name="thought47">"I pushed everyone else away because they weren't you\u0009"</string>
+    <string name="thought48">I fell in love with the way you touched me without using your hands\u0009</string>
+    <string name="thought49">"Morning without you is a dwindled dawn."</string>
+    <string name="thought5">We are each of us angels with only one wing, and we can only fly by embracing one another.</string>
+    <string name="thought50">There is no charm equal to tenderness of heart.</string>
+    <string name="thought51">I reward loyalty with loyalty. I rewart disloyalty with distance</string>
+    <string name="thought52">"The worst feeling is when you feel like you're annoying the only person you wanna talk to"</string>
+    <string name="thought53">It felt like heaven when you kissed me so I ignored all the times you put me through hell</string>
+    <string name="thought54">The first kiss is the last to be forgotten\u0009</string>
+    <string name="thought55">Tradition wears a snowy beard, romance is always young.</string>
+    <string name="thought56">Stop looking for happiness in the same place you lost it \u0009</string>
+    <string name="thought57">"My heart is like a singing bird."</string>
+    <string name="thought58">"All the beautiful sentiments in the world weigh less than a single lovely action."</string>
+    <string name="thought59">"Love is the silent saying and saying of a single name."</string>
+    <string name="thought6">"You don't love someone because they're perfect, you love them in spite of the fact that
+        they're not."</string>
+    <string name="thought60">"Find someone who believes in you when you don't"</string>
+    <string name="thought61">"What is a kiss? Why this, as some approve: The sure, sweet cement, glue, and lime of love."</string>
+    <string name="thought62">"They say don't look back, but sometimes it's important to see how far you've come"</string>
+    <string name="thought63">"It's about who you miss at 2 in the afternoon when you're busy, not 2 in the morning when
+        you're lonely"
+    </string>
+    <string name="thought64">"Be with someone who makes your Monday's feel like Friday's"</string>
+    <string name="thought65">I wish I had the power to ignore you like you ignore me</string>
+    <string name="thought66">"Everytime my phone buzzes I hope it's you missing me"</string>
+    <string name="thought67">"I'm in love with the idea of you and me still together in the future"</string>
+    <string name="thought68">"Missing you comes in waves. Tonight I'm drowning"</string>
+    <string name="thought69">Is this not the true romantic feeling; not to desire to escape life, but to prevent life from escaping you.</string>
+    <string name="thought7">I would rather spend one lifetime with you, than face all the ages of this world alone</string>
+    <string name="thought70">"Distance sometimes lets you know who's worth keeping and who's worth letting go"</string>
+    <string name="thought71">"The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart."</string>
+    <string name="thought72">"Everybody wants something to happen but everybody's too afraid to make the first move"</string>
+    <string name="thought73">The human heart always forgives no matter what it is told</string>
+    <string name="thought74">Some eyes touch you more than hands ever could</string>
+    <string name="thought75">"The same eyes that taught me to love, taught me I'd never be good enough to be loved back"</string>
+    <string name="thought76">"I'm homesick for arms that don't want to hold me"</string>
+    <string name="thought77">"We must let go of the life we have planned\\, so as to accept the one that is waiting for us."</string>
+    <string name="thought78">I wonder what goes through your mind when someone mentions my name to you</string>
+    <string name="thought79">"I saw him, and I couldn't differentiate between my heart breaking and my heart fluttering"</string>
+    <string name="thought8">"Nothing is impossible, the word itself says I am possible!"</string>
+    <string name="thought80">"My loyalty runs real deep that's why I'm extra selective on who I give my loyalty out to"</string>
+    <string name="thought81">My mission in life is not merely to survive, but to thrive; and to do so with some passion, some compassion, some humor, and some style.</string>
+    <string name="thought82">I say its his loss but ddep down I know its mine too</string>
+    <string name="thought83">Everybody is a main character to someone</string>
+    <string name="thought84">I want a relationship with someone who never has me guessing where I stand with them</string>
+    <string name="thought85">"Just because you took longer than other, doesn't mean you failed. Remember that"</string>
+    <string name="thought86">"How a person reacts to your sadness says a lot about how long they're going to be in your life"</string>
+    <string name="thought87">"I hate you because I will have to wonder for the rest of my life why I wasn't enough\u0009"</string>
+    <string name="thought88">We build stories in our heads and we stick to them until you are finished or they finish us</string>
+    <string name="thought89">"Sometimes you have to accept that people's part in your story is over"</string>
+    <string name="thought9">Perfection is not attainable, but if we chase perfection we can catch excellence.</string>
+    <string name="thought90">"Be faithful to that which exists within yourself."</string>
+
+    <string name="random">Add Random</string>
+
+    <string name="rotate">Rotate</string>
+
+    <string name="share">Share</string>
+    <string name="transparency">Transparency</string>
+    <string name="store_name">TECHMATH</string>
+
+
+</resources>

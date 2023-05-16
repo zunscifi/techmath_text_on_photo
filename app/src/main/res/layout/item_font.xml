@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/font_section"
+    android:layout_width="110.0dip"
+    android:layout_height="110.0dip"
+    android:padding="2.0dip">
+
+    <TextView
+        android:id="@id/txt_font_demo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="Aa"
+        android:textSize="46.0sp" />
+</FrameLayout>
+
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/font_section"
+    android:layout_width="100.0dip"
+    android:layout_height="50.0dip"
+    android:padding="2.0dip">
+
+    <TextView
+        android:id="@id/txt_font_demo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:background="@color/bottom_bg"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="Sample"
+        android:textSize="18.0sp" />
+</FrameLayout>-->

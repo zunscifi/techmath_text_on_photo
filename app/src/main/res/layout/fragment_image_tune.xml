@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="130.0dip"
+    android:orientation="vertical">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@id/tablayoutTune"
+        android:layout_width="match_parent"
+        android:layout_height="40.0dip"
+        app:tabGravity="fill"
+        android:background="@color/main_bg"
+        app:tabTextAppearance="@style/MyCustomTextAppearance"
+        app:tabIndicatorHeight="0.0dip"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="@color/button_color"
+        app:tabTextColor="#54FE71BF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90.0dip"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@id/tvTuneProgress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/colorWhite" />
+
+        <com.techmath.textonphoto.views.CustomSeekBar
+            android:id="@id/seekbar_tune"
+            android:layout_width="match_parent"
+            android:layout_height="50.0dip"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:max="100"
+            android:thumbTint="@color/button_color"
+            android:progressBackgroundTint="@color/button_color"
+            android:progress="50"
+            android:progressDrawable="@android:color/transparent" />
+    </LinearLayout>
+</LinearLayout>

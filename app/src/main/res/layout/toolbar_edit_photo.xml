@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:background="@color/main_bg">
+
+        <ImageView
+            android:id="@id/btnBack"
+            android:layout_width="@dimen/_22sdp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:clickable="true"
+            android:src="@drawable/back" />
+
+        <ImageView
+            android:id="@id/btnAddText_toolbar"
+            android:layout_width="@dimen/_22sdp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_toLeftOf="@id/btnUndo"
+            android:src="@drawable/add" />
+
+        <ImageView
+            android:id="@id/btnUndo"
+            android:layout_width="@dimen/_22sdp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_toLeftOf="@id/btnRedo"
+            android:clickable="true"
+            android:src="@drawable/undo" />
+
+        <ImageView
+            android:id="@id/btnRedo"
+            android:layout_width="@dimen/_22sdp"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/btnSave"
+            android:clickable="true"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:src="@drawable/redo" />
+
+        <ImageView
+            android:id="@id/btnSave"
+            android:layout_width="@dimen/_22sdp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:clickable="true"
+            android:src="@drawable/download" />
+    </RelativeLayout>
+</RelativeLayout>

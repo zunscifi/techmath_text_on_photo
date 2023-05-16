@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/text_tool_top_height"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_tool_top_height_half"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <com.techmath.textonphoto.photoeditor.RoundFrameLayout
+            android:id="@id/btn_picker_color_text"
+            android:layout_width="38.0dip"
+            android:layout_height="38.0dip"
+            android:layout_centerVertical="true"
+            android:layout_margin="5.0dip"
+            android:clickable="true"
+            android:padding="3.0dip"
+            app:rv_backgroundColor="@color/main_bg"
+            app:rv_cornerRadius="3.0dip"
+            app:rv_strokeColor="@color/button_color"
+            app:rv_strokeWidth="2.0dip">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_pencil" />
+        </com.techmath.textonphoto.photoeditor.RoundFrameLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/recycler_color_text"
+            android:layout_width="match_parent"
+            android:layout_height="56.0dip"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/btn_picker_color_text" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="5.0dip"
+            android:src="@drawable/ic_transparency" />
+
+        <SeekBar
+            android:id="@id/sbTranparencyText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="54.0dip"
+            android:thumbTint="@color/button_color"
+            android:progressBackgroundTint="@color/white"
+            android:progressTint="@color/button_color" />
+    </LinearLayout>
+</LinearLayout>

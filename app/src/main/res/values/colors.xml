@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="main_bg">#07091a</color>
+    <color name="bottom_bg">#07091a</color>
+
+    <color name="black">#ff000000</color>
+
+    <color name="colorAccent">#ffa36ed2</color>
+    <color name="colorBlack">#07091a</color>
+    <color name="colorPrimary">#ff008577</color>
+    <color name="colorPrimaryDark">#07091a</color>
+    <color name="colorWhite">#ffffffff</color>
+
+    <color name="gnt_ad_green">#ff3a6728</color>
+    <color name="gnt_gray">#ff808080</color>
+    <color name="gnt_test_background_color">#00f4f4f4</color>
+    <color name="gnt_white">#ffffffff</color>
+    <color name="grey_200">#ffeeeeee</color>
+    <color name="grey_400">#ffbdbdbd</color>
+    <color name="grey_500">#ff9e9e9e</color>
+
+    <color name="icChecked">#FE8E2C</color>
+    <color name="install">#ff02e260</color>
+
+    <color name="mainactivity1">#07091a</color>
+    <color name="mainactivity2">#07091a</color>
+
+
+
+    <color name="rainbow_yellow">#ffffef00</color>
+
+    <color name="text_second">#ff888893</color>
+
+    <color name="transparentBlack">#96000000</color>
+
+
+    <color name="unselected_color">#ff7d7d7d</color>
+    <color name="white">#ffffffff</color>
+    <color name="tab_text_press_color">#FE8E2C</color>
+    <color name="gradient_start_color">#FE8E2C</color>
+    <color name="gradient_end_color">#FD1F7D</color>
+    <color name="main_color">#3a486e</color>
+    <color name="button_color">#fe71bf</color>
+</resources>

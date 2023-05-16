@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.techmath.textonphoto.views.CircleImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/img_background_circle"
+    android:layout_width="50.0dip"
+    android:layout_height="50.0dip"
+    android:padding="5.0dip"
+
+    android:scaleType="centerCrop" />

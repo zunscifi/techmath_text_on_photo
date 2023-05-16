@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:id="@+id/frmBorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:background="@drawable/rounded_border_tv">
+
+        <com.techmath.textonphoto.photoeditor.RoundFrameLayout
+            android:id="@+id/frmBorder_highlight"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:rv_cornerRadius="8.0dip">
+
+            <com.techmath.textonphoto.photoeditor.StrokeTextView
+                android:id="@+id/tvPhotoEditorText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8.0dip"
+                android:layout_marginRight="8.0dip"
+                android:gravity="center"
+                android:textColor="#ff000000"
+                android:textSize="40.0sp" />
+        </com.techmath.textonphoto.photoeditor.RoundFrameLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/imgPhotoEditorClose"
+        android:layout_width="36.0dip"
+        android:layout_height="36.0dip"
+        android:layout_gravity="start|center|top"
+        android:padding="6.0dip">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/circle_black"
+            android:elevation="1.0dip"
+            android:padding="3.0dip"
+            android:src="@drawable/ic_close_black_24dp" />
+    </FrameLayout>
+
+<!--    <FrameLayout-->
+<!--        android:id="@+id/imgPhotoEditorAlign"-->
+<!--        android:layout_width="36.0dip"-->
+<!--        android:layout_height="36.0dip"-->
+<!--        android:layout_gravity="start|bottom|center"-->
+<!--        android:padding="6.0dip">-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="fill_parent"-->
+<!--            android:background="@drawable/circle_white"-->
+<!--            android:elevation="1.0dip"-->
+<!--            android:padding="3.0dip"-->
+<!--            android:scaleType="center"-->
+<!--            android:src="@drawable/ic_center_black_18dp" />-->
+<!--    </FrameLayout>-->
+
+    <FrameLayout
+        android:id="@+id/imgPhotoEditorZoom"
+        android:layout_width="36.0dip"
+        android:layout_height="36.0dip"
+        android:layout_gravity="end|bottom|center"
+        android:padding="6.0dip">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/circle_white"
+            android:elevation="1.0dip"
+            android:padding="3.0dip"
+            android:scaleType="center"
+            app:tint="@color/white"
+            android:src="@drawable/ic_sticker_ic_scale_black_18dp" />
+    </FrameLayout>
+</FrameLayout>
